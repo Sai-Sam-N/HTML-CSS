@@ -15,10 +15,18 @@
             width: 112px;
             border-radius: 2px;
             margin-right: 8px;
+            transition: opacity 0.15s;
         }
+        /* hover - we add extra styles additionally on top of the above defined default styles when the user hovers on top of the button */
         .subscribe-button:hover{
-            background-color: #e16060;
+            opacity: 0.7; /* defines how see through an element is. Takes a value between 0 to 1; where 1 represents the normal (fully visible) state; as the value is decreased, the element starts to fade out */
+            /* background-color: #e16060; */ /* a guess before learning opacity */
             cursor: pointer;
+        }
+        /* active - styles to be added when the person clicks the button */
+        .subscribe-button:active{
+            opacity: 0.5;
+            /* background-color: #dc7d7d; */
         }
 
         .join-button{
@@ -31,11 +39,15 @@
             height: 35px;
             width: 60px;
             margin-right: 8px;
+            transition: background-color 1s, color 1s;
         }
         .join-button:hover{
             color: white;
             background-color: #085ED4;
             cursor: pointer;
+        }
+        .join-button:active{
+            opacity: 0.7;
         }
 
         .tweet-button{

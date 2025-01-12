@@ -34,6 +34,10 @@ What (part of the element) are we changing?
 * Color - property for changing the text color
 * Background color - property for changing the background color
 * Margin - spacing between the elements.
+* Opacity - 0 to 1; 1 represents fully visible element. As the value decreases, the element kinda fades in terms of visibility and 0 makes it invisible.
+* Transition - timing for changing from one state to another. Takes 2 values: 
+    1. what do you want to transition (the element)
+    2. how long should the transition take
 ### 3. CSS Value
 What are we changing the property into?
 ![CSS Property and CSS Value](image-2.png)
