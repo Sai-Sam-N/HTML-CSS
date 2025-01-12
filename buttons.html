@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Styling</title>
+
+    <!-- CSS part -->
+    <style>
+        .subscribe-button {
+            background-color: #CC0100;
+            color: white;
+            border: none;
+            height: 35px;
+            width: 112px;
+            border-radius: 2px;
+            margin-right: 8px;
+        }
+        .subscribe-button:hover{
+            background-color: #e16060;
+            cursor: pointer;
+        }
+
+        .join-button{
+            background-color: #FFFF;
+            color: #085ED4;
+            border-color: #085ED4;
+            border-width: 1px;
+            border-radius: 2px;
+            border-style: solid; /* This is for when the bottom and the right border look darker after setting the border color */
+            height: 35px;
+            width: 60px;
+            margin-right: 8px;
+        }
+        .join-button:hover{
+            color: white;
+            background-color: #085ED4;
+            cursor: pointer;
+        }
+
+        .tweet-button{
+            color: white;
+            background-color: #1C9BEF;
+            border: none;
+            border-radius: 20px;
+            height: 35px;
+            width: 75px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .tweet-button:hover{
+            cursor: pointer;
+            /* box-shadow: ; */
+        }
+    </style>
+</head>
+<body>
+    <button class="subscribe-button">SUBSCRIBE</button>
+    <button class="join-button">JOIN</button>
+    <button class="tweet-button">Tweet</button>
+</body>
+</html>
