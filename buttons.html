@@ -52,17 +52,23 @@
 
         .tweet-button{
             color: white;
-            background-color: #1C9BEF;
+            background-color: rgb(28, 155, 239);
             border: none;
             border-radius: 20px;
             height: 35px;
             width: 75px;
             font-weight: bold;
             font-size: 14px;
+            transition: box-shadow 0.15s;
         }
         .tweet-button:hover{
+            box-shadow: -3px 4px 6px rgba(81, 90, 96, 0.5);
             cursor: pointer;
+            /* box-shadow: -3px 4px 6px rgb(151, 149, 149); */
             /* box-shadow: ; */
+        }
+        .tweet-button:active{
+            opacity: 0.8;
         }
     </style>
 </head>

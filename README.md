@@ -38,6 +38,12 @@ What (part of the element) are we changing?
 * Transition - timing for changing from one state to another. Takes 2 values: 
     1. what do you want to transition (the element)
     2. how long should the transition take
+* Shadows (box-shadow) - takes 4 values:
+    1. Horizontal position of the shadow - shadow appears __px to the right.
+    2. Vertical position of the shadow - shadow appears __px down.
+    3. Blur - the shadow becomes blurred
+    4. Color of the shadow
+
 ### 3. CSS Value
 What are we changing the property into?
 ![CSS Property and CSS Value](image-2.png)
@@ -47,3 +53,7 @@ What are we changing the property into?
 ### 1. Class
 in the HTML element specify as `class = "class_name"`
 in CSS to style this HTML element, specify the CSS Selector starting with a '.' like `.class_name {......}`
+
+## Colors
+### RGBA 
+Same as RGB but A represents the opacity of the color.
