@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play button</title>
+
+    <style>
+        .play-button{
+            background-color: white;
+            color: black;
+            border-color: black;
+            border-radius: 100%;
+            border-style: solid;
+            border-width: 2.5px;
+            height: 30px;
+            width: 30px;
+            transition: background-color 0.15s, color 0.15s;
+        }
+        .play-button:hover{
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+        }
+        .play-button:active{
+            opacity: 0.4;
+            box-shadow: 0 0 0 rgba(0,0,0,0.4);
+        }
+    </style>
+</head>
+<body>
+    <button class="play-button">▶</button>
+</body>
+</html>
