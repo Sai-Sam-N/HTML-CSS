@@ -57,3 +57,23 @@ in CSS to style this HTML element, specify the CSS Selector starting with a '.' 
 ## Colors
 ### RGBA 
 Same as RGB but A represents the opacity of the color.
+
+
+## CSS Box model
+
+![CSS box model](image-3.png)
+* How much space an element takes up
+* How far it is away from other elements
+
+### 1. Spacing on the outside of the element
+Called a <b>Margin</b>. Margin can be added on all 4 sides of the element - top, bottom, right and left.
+
+### 2. Spacing on the inside of the element
+To make the element bigger. It's called a <b>Padding</b>. <br>
+Adding the height and width of the elements like we did for the buttons, isn't exactly a good idea. This is because, for example, if we add some extra text, the text overflows outside the button. <br>
+To fix this issue, just remove the height and width property & instead add a padding. <br>
+Just like the case of margin, we have left, right top and bottom Paddings.  
+
+
+[https://youtu.be/G3e-cpL7ofc?t=4466](Link)
+By default, our browser aligns the buttons according to the text. 'cause browsers in the beginning were text-based. So, to overwrite this behavior and make the browser align the buttons on the same level - we can use `vertical-align`
