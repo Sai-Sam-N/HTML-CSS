@@ -81,5 +81,6 @@ Just like the case of margin, we have left, right top and bottom Paddings.
 By default, our browser aligns the buttons according to the text. 'cause browsers in the beginning were text-based. So, to overwrite this behavior and make the browser align the buttons on the same level (top) - we can use `vertical-align : top`
 
 <b>Adjusting paddings & Margins</b> <br>
-Check out the commit - 'Join button slightly bigger than subscribe button' for the buttons_cssboxmodels.html file on macbranch branch - for the problem discussed. 
+Check out the commit - 'Join button slightly bigger than subscribe button' for the buttons_cssboxmodels.html file on 'macbranch' branch - for the problem discussed. 
 The extra margin around 'Join' button of 1px makes this button look relatively bigger than the 'Subscribe' button. One of the ways to compensate for this is to reduce the padding of 'Join' button by 1px which will make them look about the same size.
+For the <b>Solution</b> check out the 'Join button same size as Subscribe button' commit for the buttons_cssboxmodels.html file on 'macbranch' branch.
