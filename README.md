@@ -74,6 +74,8 @@ Adding the height and width of the elements like we did for the buttons, isn't e
 To fix this issue, just remove the height and width property & instead add a padding. <br>
 Just like the case of margin, we have left, right top and bottom Paddings.  
 
+## CSS Alignment 
+<b>My take : </b> Browser aligns all the elements according to text by default. If you want to overwrite this behaviour and make the browser align based on elements and NOT the text, you can use the alignment property.<br>
 
 [https://youtu.be/G3e-cpL7ofc?t=4466](Link)
-By default, our browser aligns the buttons according to the text. 'cause browsers in the beginning were text-based. So, to overwrite this behavior and make the browser align the buttons on the same level - we can use `vertical-align`
+By default, our browser aligns the buttons according to the text. 'cause browsers in the beginning were text-based. So, to overwrite this behavior and make the browser align the buttons on the same level (top) - we can use `vertical-align : top`
